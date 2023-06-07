@@ -8,14 +8,22 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./main.css" />
     <title>Document</title>
   </head>
   <body>
     <header>
       <span class="material-symbols-outlined logo"> home </span>
+      <!-- burger menu       -->
       <span class="material-symbols-outlined plus"> add </span>
-      <div>
+      <!-- wir brauchen einen div, damit der <nav> und der button zusammenliegen -->
+      <div class="header__interaction">
         <nav>
           <ul>
             <li><a href="">Project</a></li>
@@ -28,8 +36,10 @@
     </header>
     <main>
       <section class="hero">
-        <h1>SangenjaYA House</h1>
-        <p>Your rental house in central Tokyo</p>
+        <div>
+          <h1>SangenjaYA House</h1>
+          <p>Your rental house in central Tokyo</p>
+        </div>
       </section>
       <section class="history">
         <h2>History</h2>
