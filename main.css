@@ -1,0 +1,56 @@
+/* #bd9f66 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  /* justify-content: space-around; */
+  padding: 1vh 5vw;
+  background-color: #fafafa;
+}
+
+.logo {
+  color: #bd9f66;
+  height: 40px;
+}
+
+.plus {
+  font-size: 6rem;
+  font-weight: 200;
+}
+
+header {
+  display: flex;
+  gap: 0 1vw;
+}
+
+header div {
+  display: none;
+}
+
+p {
+  font-size: 2.4rem;
+}
+
+ul {
+  display: flex;
+  gap: 1vw;
+}
+
+li {
+  list-style: none;
+}
+
+@media screen and (min-width: 990px) {
+  header div {
+    display: display;
+  }
+}
